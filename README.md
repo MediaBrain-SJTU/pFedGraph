@@ -19,7 +19,6 @@ python fedavg.py --gpu "7" --dataset 'cifar10' --partition 'noniid-skew' --n_par
 sh run_cifar10.sh
 ```
 
-## pFedGraph
 - pfedgraph_approx.py runs the experiment that we regularize the local model with the unnormalized aggregated model.
 - pfedgraph_cosine.py runs the experiment that we regularize the local model with the normalized aggregated model.
 
@@ -32,7 +31,7 @@ sh run_cifar10.sh
 To cite, please use:
 
 ```latex
-@inproceedings{ye2023pretraining,
+@inproceedings{ye2023personalized,
   title={Personalized Federated Learning with Inferred Collaboration Graphs},
   author={Ye, Rui and Ni, Zhenyang and Wu, Fangzhao and Chen, Siheng and Wang, Yanfeng},
   booktitle={International Conference on Machine Learning},
