@@ -1,5 +1,6 @@
 __pycache__/
 */__pycache__/
-data/
-log/
+**data/
+**logs/
+**models/
 run_parallel.sh
